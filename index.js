@@ -1,10 +1,10 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(pickup) {
-    return Math.abs(42 - pickup)
+function distanceFromHqInBlocks(location) {
+    return Math.abs(42 - location)
 }
 
-function distanceFromHqInFeet(pickup) {
-    return distanceFromHqInBlocks(pickup) * 264
+function distanceFromHqInFeet(location) {
+    return distanceFromHqInBlocks(location) * 264
 }
 
 function distanceTravelledInFeet(start, end) {
